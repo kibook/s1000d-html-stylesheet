@@ -33,4 +33,5 @@
   <xsl:include href="create-link.xsl"/>
   <xsl:include href="id.xsl"/>
   <xsl:include href="emphasis.xsl"/>
+  <xsl:include href="figure.xsl"/>
 </xsl:stylesheet>
