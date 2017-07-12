@@ -32,4 +32,5 @@
   <xsl:include href="verbatimText.xsl"/>
   <xsl:include href="create-link.xsl"/>
   <xsl:include href="id.xsl"/>
+  <xsl:include href="emphasis.xsl"/>
 </xsl:stylesheet>
