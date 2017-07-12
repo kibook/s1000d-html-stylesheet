@@ -2,18 +2,16 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   
   <xsl:template match="figure">
-    <div class="figure">
+    <figure>
       <xsl:apply-templates select="graphic"/>
       <xsl:apply-templates select="title"/>
-    </div>
+    </figure>
   </xsl:template>
 
   <xsl:template match="title">
-    <div class="title">
-      <caption>
-        <xsl:apply-templates/>
-      </caption>
-    </div>
+    <figcaption>
+      <xsl:apply-templates/>
+    </figcaption>
   </xsl:template>
 
   <xsl:template match="graphic">
